@@ -1,0 +1,103 @@
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+html {
+    scroll-behavior: smooth;
+}
+.image-container {
+    text-align: center; /* Căn giữa nội dung bên trong */
+}
+
+img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của viewport */
+    height: auto; /* Giữ tỷ lệ khung hình */
+}
+/*==Style cho menu===*/
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+h2 {
+    text-align: center; /* Căn giữa câu */
+    margin-top: 20px; /* Khoảng cách trên */
+    color: #333; /* Màu chữ */
+}
+hr {
+    border: none; /* Bỏ đường viền mặc định */
+    height: 2px; /* Độ dày của đường line */
+    background-color: #1F568B; /* Màu sắc của đường line */
+    margin: 20px 0; /* Khoảng cách trên và dưới đường line */
+}
+.course-container {
+    display: flex; /* Sử dụng Flexbox để đặt các khung trên cùng một hàng */
+    justify-content: space-around; /* Khoảng cách giữa các khung */
+    margin: 20px 0; /* Khoảng cách trên và dưới */
+}
+
+.course-box {
+    border: 1px solid #1F568B; /* Đường viền cho khung */
+    padding: 15px; /* Khoảng cách bên trong khung */
+    text-align: center; /* Căn giữa nội dung bên trong */
+    width: 30%; /* Chiều rộng của mỗi khung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho khung */
+}
+
+.course-box img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của khung */
+    height: auto; /* Giữ tỷ lệ khung hình */
+    margin-bottom: 10px; /* Khoảng cách dưới hình ảnh */
+}
+
+.course-box h3 {
+    margin: 10px 0; /* Khoảng cách trên và dưới cho tiêu đề */
+}
+
+.course-box p {
+    color: #666; /* Màu chữ cho mô tả */
+}
+.combo-container {
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: space-between; /* Căn khoảng cách giữa các combo box */
+    margin: 20px 0; /* Khoảng cách trên và dưới */
+}
+
+.combo-container select {
+    width: 23%; /* Mỗi combo box chiếm 23% chiều rộng, vừa đủ để có khoảng trống giữa */
+    padding: 10px; /* Thêm padding để làm đẹp */
+    font-size: 16px; /* Kích thước font chữ */
+    border: 1px solid #1F568B; /* Đường viền */
+    border-radius: 5px; /* Bo tròn các góc */
+    background-color: #f9f9f9; /* Màu nền nhạt */
+}
+#lienhe{
+	background: yellow;
+}
